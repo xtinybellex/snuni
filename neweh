@@ -1,0 +1,33 @@
+result = GetValue(data);
+
+switch (result) {
+
+case ‘A’: case ‘a’:
+
+System.out.println("Your grade is above a 90%.");
+
+break;
+
+case ‘B’: case ‘b’:
+
+System.out.println("Your grade is above an 80% but below a 90%.");
+
+case ‘C’: case ‘c’:
+
+System.out.println("Your grade is above a 70% but below an 80%.");
+
+break;
+
+case ‘D’: case ‘d’:
+
+System.out.println("Your grade is above a 60% but below a 70%.");
+
+break;
+
+default:
+
+System.out.println("Your grade is not passing.");
+
+break;
+
+}
